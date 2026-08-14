@@ -231,41 +231,7 @@ The transaction contained:
 
 The transaction was subsequently inspected to verify its Input and Output Cells.
 
-## 11. Evidence
-
-All practical exercises should retain screenshots as proof of participation and completion.
-
-### 11.1 Source Project
-
-The Nervos Docs repository was cloned and the `simple-transfer` example was opened.
-
-![Source Project](evidence/week-01/01-source-project.PNG)
-
-### 11.2 CKB Devnet Running
-
-OffCKB successfully started the local CKB Devnet and RPC Proxy.
-
-![CKB Devnet Running](evidence/week-01/02-devnet-running.PNG)
-
-### 11.3 Account and CKB Address
-
-The `simple-transfer` application displayed the CKB account, address, Lock Script, and available capacity.
-
-![Account and Address](evidence/week-01/03-account-address.PNG)
-
-### 11.4 Transaction Hash
-
-The Transfer CKB exercise was successfully submitted and a transaction hash was returned.
-
-![Transaction Hash](evidence/week-01/04-transaction-hash.PNG)
-
-### 11.5 Transaction Input and Output
-
-The transaction was inspected and the Input/Output Cells were verified.
-
-![Transaction Input and Output](evidence/week-01/05-transaction-input-output.PNG)
-
-## 12. Challenges
+## 11. Challenges
 
 The main conceptual challenge was moving from an account/balance mental model to the CKB Cell Model.
 
@@ -291,7 +257,7 @@ Create new Cell
 
 Working through the Transfer CKB exercise helped connect the theoretical Cell Model with an actual transaction.
 
-## 13. Key Takeaways
+## 12. Key Takeaways
 
 - CKB is a Layer 1 blockchain.
 - CKB uses the Cell Model.
@@ -306,7 +272,7 @@ Working through the Transfer CKB exercise helped connect the theoretical Cell Mo
 - A CKB transfer can be understood as consuming an existing Cell and creating new output Cells.
 - Practical exercises are important for connecting CKB concepts with real transactions.
 
-## 14. Next Week — Learn Building on CKB
+## 13. Next Week — Learn Building on CKB
 
 Next week will focus on building applications on CKB using **JavaScript / TypeScript** and **CCC (Common Chain Connector)**.
 
@@ -345,7 +311,7 @@ Explore the available CKB SDK/documentation for:
 - Go
 - Java
 
-## 15. Payment Channels on CKB
+## 14. Payment Channels on CKB
 
 CKB is designed as a secure and decentralized Layer 1 optimized for verification, while higher layers can provide scaling and high-throughput use cases.
 
@@ -363,7 +329,7 @@ An Ethereum-compatible peer-to-peer payment channel and swap solution for CKB.
 
 These topics are secondary to the main Week 2 focus and can be explored after the CCC fundamentals.
 
-## 16. Week 2 Checklist
+## 15. Week 2 Checklist
 
 - [ ] Explore CCC App.
 - [ ] Run examples in the CCC Playground.
