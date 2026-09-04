@@ -118,7 +118,23 @@ These checks validate code quality but do not prove that public Testnet transact
 - Fiber moves repeated payments off-chain while CKB provides funding and settlement.
 - A submitted hash is not completion proof; the committed state must be verified.
 
-## 9. References
+## 9. Next Week Work
+
+Week 5 will focus on **CKB Script Fundamentals** and completing the Simple Lock exercise that remains pending from the beginner checklist.
+
+Planned work:
+
+- Study the CKB validation model, Script groups, witnesses and exit codes.
+- Review Script development with Rust and JavaScript and select the implementation language.
+- Build a hash-lock Script that verifies a witness preimage against the hash stored in Script args.
+- Add tests for correct, incorrect and missing preimages.
+- Build and inspect the contract with `ckb-debugger`.
+- Deploy the contract to OffCKB Devnet.
+- Fund a Cell protected by the custom lock and unlock it with the correct preimage.
+- Begin integrating a Simple Lock Lab into FiberPay.
+
+
+## 10. References
 
 - [Transfer CKB](https://docs.nervos.org/docs/dapp/transfer-ckb)
 - [Store Data on Cell](https://docs.nervos.org/docs/dapp/store-data-on-cell)
